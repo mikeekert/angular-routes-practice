@@ -9,17 +9,30 @@
     <script src="../vendors/angular-route.min.js"></script>
     <script src="../scripts/client.js"></script>
     <script src="../scripts/controllers/home.controller.js"></script>
+    <!-- <script src="../scripts/controllers/leia.controller.js"></script> -->
+    <script src="../scripts/controllers/lady.controller.js"></script>
+    <script src="../scripts/controllers/vanessa.controller.js"></script>
+    <script src="../scripts/controllers/myrtle.controller.js"></script>
+    <script src="../scripts/controllers/psycho.controller.js"></script>
+    <script src="../scripts/controllers/nancy.controller.js"></script>
+
     <title>Document</title>
 </head>
 
-<body>
-    <p>hey-o!</p>
+<body ng-app="myApp">
+    <p>Fictional Disposable Women</p>
     <nav>
         <ul>
-            <li><a href = "#!/">HOME</a></li>
-            <li><a href="/leia">Leia</a></li>
+            <li><a href="#!/">HOME</a></li>
+            <!-- <li><a href="#!/leia">Leia</a></li> -->
+            <li><a href="#!/lady">The Gray Lady from HP</a></li>
+            <li><a href="#!/vanessa">Vanessa Kensington from Austin Powers</a></li>
+            <li><a href="#!/myrtle">Myrtle from Great Gatsby</a></li>
+            <li><a href="#!/psycho">The prostitutes from American Psycho</a></li>
+            <li><a href="#!/nancy">Nancy from Oliver Twist</a></li>
         </ul>
     </nav>
+    <ng-view></ng-view>
 </body>
 
 </html>
