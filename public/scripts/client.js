@@ -23,5 +23,5 @@ myApp.config(function($routeProvider){
     }).when('/nancy', {
         templateUrl: 'views/nancy.html',
         controller: 'NancyController as nc'
-    })
+    });
 }); //end myApp.config
