@@ -3,6 +3,9 @@ myApp.controller('LadyController', function (Handshake) {
 
     var vm = this;
 
+    Handshake.randomQuality();
+    console.log(this.randomQuality);
+
     
 
 });
