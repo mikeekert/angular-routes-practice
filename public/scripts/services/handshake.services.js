@@ -22,5 +22,4 @@ myApp.service('Handshake', function ($http) {
         self.countObj.countWins++;
     };
 
-
 });
